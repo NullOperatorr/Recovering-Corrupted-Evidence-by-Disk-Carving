@@ -39,7 +39,7 @@ This exercise demonstrates the practical use of file signatures in forensic inve
 ## Case Files
 
 - We have 10 corrupted evidence files that we will investigate.
-- You will find 10 directories with evidence files and findings file.
+- You will find 10 directories with the evidence files and the analysis file.
 
 
 ---
