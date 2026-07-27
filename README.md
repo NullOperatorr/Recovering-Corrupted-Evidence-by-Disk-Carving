@@ -10,6 +10,9 @@ In this lab, corrupted files are examined to identify their original formats usi
 This exercise demonstrates the practical use of file signatures in forensic investigations and highlights how evidence can be recovered even when traditional file system information is unavailable.  
 
 
+<img width="655" height="370" alt="image" src="https://github.com/user-attachments/assets/81464393-d86b-4057-bbb9-c939137f44e8" />
+
+
 ---
 
 ## Definitions 
