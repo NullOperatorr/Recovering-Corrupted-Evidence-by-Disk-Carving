@@ -26,7 +26,7 @@ Identify the original file type by analyzing its header, restore the correct mag
 ## File Signature Identification & Recovery
 
 - In this case it is obvious that it is **.PNG** ,so if you want to double check that's fine.
-- 
+
 ---
 
 
