@@ -30,8 +30,6 @@ This exercise demonstrates the practical use of file signatures in forensic inve
   ## Tools Used
 
 - Hex Editor (HxD)
-- FTK Imager
-- 010Editor
 
 ---
 
