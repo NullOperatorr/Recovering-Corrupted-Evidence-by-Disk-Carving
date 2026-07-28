@@ -9,7 +9,7 @@ Identify the original file type by analyzing its header, restore the correct mag
 ## Initial Observation
 
 - **Filename:** File02
-- **Extension:** Unknown /
+- **Extension:** Unknown 
 - **Status:** File cannot be opened.
 - **Analysis Tool:** HxD Hex Editor
 
