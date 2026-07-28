@@ -25,6 +25,7 @@ Identify the original file type by analyzing its header, restore the correct mag
 
 ## File Signature Identification & Recovery
 
+- In this case it is obvious that it is .GIF ,so if you want to double check that's fine.
 
 ---
 
@@ -45,7 +46,7 @@ After restoring the header: **.PDF**
 | Item | Result |
 |------|--------|
 | Original File Type | PDF |
-| Magic Bytes | `89 50 4E 47` |
+| Magic Bytes | 25 50 44 46 |
 | Recovery Status | Successful |
 
 
