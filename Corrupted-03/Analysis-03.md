@@ -20,6 +20,7 @@ Identify the original file type by analyzing its header, restore the correct mag
 - Open the file with HxD editor.
 - Copy the first 8-bytes (FF D8 FF E1 2A 8F 45 78 69)
 
+<img width="913" height="614" alt="3" src="https://github.com/user-attachments/assets/702cb644-bba4-4843-adb9-17e376f7c305" />
 
 
 ---
