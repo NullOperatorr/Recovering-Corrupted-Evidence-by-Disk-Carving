@@ -28,7 +28,7 @@ Identify the original file type by analyzing its header, restore the correct mag
 
 Open (https://www.garykessler.net/library/file_sigs_GCK_latest.html).
 - Search with these bytes. (50 4B 03 04 14 00 08 08 08)
-- Note: you may delete bytes one by one until you find the targeted extension. (50 4B 03 04 14 00 08)
+- Note: you may delete bytes one by one until you find the targeted extension. (50 4B 03 04 14 00 )
 - In this case we will try multiple extensions till we find the right one.
 
 <img width="1209" height="602" alt="image" src="https://github.com/user-attachments/assets/2e272669-fc40-41af-b0a6-c3e52d275d1b" />
