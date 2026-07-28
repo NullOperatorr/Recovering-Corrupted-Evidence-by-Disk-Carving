@@ -27,6 +27,16 @@ This exercise demonstrates the practical use of file signatures in forensic inve
 
   ---
 
+  ## File Structure
+
+Regardless of their format, most files follow a common structure that allows operating systems and applications to recognize and process them correctly. The main components of a file are:
+
+- **File Header:** The first bytes of a file, also known as the **magic bytes** or **file signature**, which identify the file type and contain essential metadata.
+- **Data:** The main content of the file, such as text, images, audio, or other information.
+- **End-of-File (EOF) Marker:** A marker or specific sequence of bytes that indicates the logical end of the file.
+
+In this lab, the primary focus is on the **file header**, since identifying and restoring the correct magic bytes is the key step in recovering the corrupted files.
+
   ## Tools Used
 
 - Hex Editor (HxD)
