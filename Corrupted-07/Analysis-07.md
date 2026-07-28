@@ -18,7 +18,6 @@ Identify the original file type by analyzing its header, restore the correct mag
 ## Hex Analysis
 
 - Open the file with HxD editor.
-- Copy the first 8-bytes (FF D8 FF E1 2A 8F 45 78 69)
 
 <img width="1042" height="467" alt="7" src="https://github.com/user-attachments/assets/25b73db8-f112-4783-b7d5-279b9fa4dfa3" />
 
@@ -26,20 +25,17 @@ Identify the original file type by analyzing its header, restore the correct mag
 
 ## File Signature Identification & Recovery
 
-Open (https://www.garykessler.net/library/file_sigs_GCK_latest.html).
-- Search with these bytes. (FF D8 FF E1 2A 8F 45 78 69)
-- Note: you may delete bytes one by one until you find the targeted extension. (FF D8 FF E1)
-- As shown below it is **.jpg**
-
 
 ---
 
 
 ## Verification
 
-After restoring the header:
+After restoring the header: **.PNG**
 
 -  File type recognized correctly & opened
+
+<img width="882" height="377" alt="image" src="https://github.com/user-attachments/assets/a481f3b6-975e-479a-ad09-4b31ac223c65" />
 
 
 ---
@@ -49,7 +45,7 @@ After restoring the header:
 | Item | Result |
 |------|--------|
 | Original File Type | PNG |
-| Magic Bytes | `89 50 4E 47` |
+| Magic Bytes | 89 50 4E 47 |
 | Recovery Status | Successful |
 
 
