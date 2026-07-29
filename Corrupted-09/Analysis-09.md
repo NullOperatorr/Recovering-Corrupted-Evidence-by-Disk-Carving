@@ -26,12 +26,9 @@ Identify the original file type by analyzing its header, restore the correct mag
 
 ## File Signature Identification & Recovery
 
-Open (https://www.garykessler.net/library/file_sigs_GCK_latest.html).
-- Search with these bytes. (FF D8 FF E1 2A 8F 45 78 69)
-- Note: you may delete bytes one by one until you find the targeted extension. (FF D8 FF E1)
-- As shown below it is **.jpg**
-
-
+- Open (https://www.garykessler.net/library/file_sigs_GCK_latest.html).
+- Search with these bytes. (00 00 00 18 66 74 79 70 6D)
+- Note: you may delete bytes one by one until you find the targeted extension. 
 
 ---
 
@@ -39,10 +36,11 @@ Open (https://www.garykessler.net/library/file_sigs_GCK_latest.html).
 
 ## Verification
 
-After restoring the header:
+After restoring the header: **MP4**
 
 -  File type recognized correctly & opened
 
+<img width="693" height="872" alt="image" src="https://github.com/user-attachments/assets/4e022ca5-fccf-46cc-af1d-b595d769887e" />
 
 ---
 
@@ -50,8 +48,8 @@ After restoring the header:
 
 | Item | Result |
 |------|--------|
-| Original File Type | PNG |
-| Magic Bytes | `89 50 4E 47` |
+| Original File Type | MP4 |
+| Magic Bytes | 00 00 00 18 66 74 79 70 6D |
 | Recovery Status | Successful |
 
 
