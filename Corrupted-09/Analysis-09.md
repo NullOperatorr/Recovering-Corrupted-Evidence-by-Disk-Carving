@@ -18,7 +18,7 @@ Identify the original file type by analyzing its header, restore the correct mag
 ## Hex Analysis
 
 - Open the file with HxD editor.
-- Copy the first 8-bytes (FF D8 FF E1 2A 8F 45 78 69)
+- Copy the first 8-bytes (00 00 00 18 66 74 79 70 6D)
 
 <img width="1031" height="441" alt="9" src="https://github.com/user-attachments/assets/97293c08-3af8-412a-8a5f-4f8e15e3d99a" />
 
